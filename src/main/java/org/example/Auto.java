@@ -13,6 +13,14 @@ public class Auto extends Fahrzeug {
         this.doors = doors;
     }
 
+    public int getDoors() {
+        return doors;
+    }
+
+    public void setDoors(int doors) {
+        this.doors = doors;
+    }
+
     @Override
     public String toString() {
         return "Auto{" +
