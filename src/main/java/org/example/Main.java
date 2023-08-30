@@ -8,5 +8,9 @@ public class Main {
 
         Auto auto = new Auto("Hyundai", "i10", 2010, 2);
         System.out.println(auto);
+
+        Motorrad motorrad = new Motorrad("XYZ", "M1", 1999, 345, "");
+        motorrad.setArt("Chopper");
+        System.out.println(motorrad);
     }
 }
